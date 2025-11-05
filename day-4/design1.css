@@ -1,0 +1,72 @@
+ /* p[id="paragraph"]{
+    background-color: blue;
+}
+
+p{
+    width: 100px;
+}
+
+p::first-letter{
+    background-color: blueviolet;
+}
+
+p::first-line{
+    background-color: brown;
+}
+
+p::selection{
+    background-color: chartreuse;
+}
+
+p::after{
+    content: "after the text";
+}
+
+p::before{
+    content: "before the text";
+} */
+div{
+    /* width: 200px;
+    background-color: red;
+    padding: 20px 30px 40px 20px;
+    margin: 30px 20px 40pc 20px;
+ */
+
+ height: 300px;
+ width: 300px;
+border: 2px solid black;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-XycpeXWIgiQ16D5ECEAdsDefTcuEG5fkC0udkexzjicFV2Qy8q6f2I&s");
+background-position: center;
+background-size: cover;
+
+}
+#bloc{
+    background-color: brown;
+    display: inline;
+}
+span{
+    background-color: blue;
+    display: block;
+    width: 300px;
+}
+h1{
+    background-color: greenyellow;
+    display: inline-block;
+    /* visibility: hidden; */
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.item{
+    width: 300px;
+    height: 300p;
+    border: 1px solid black;
+    border-radius: 5px;
+}
